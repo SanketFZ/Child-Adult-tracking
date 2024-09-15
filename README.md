@@ -53,8 +53,9 @@ DeepSORT enhances object tracking by combining:
 
 1. **Install YOLOv8**:
    - Clone the YOLOv8 repository and install the YOLO library
-     pip install -r requirements.txt for dependencies
-     ```
+   ```python
+   pip install -r requirements.txt for dependencies
+   ```
 
 2. **Preparing YOLO Config File**:
    - Modified the `data.yaml` file to specify the number of classes (2: "adult" and "kid") and the paths to your dataset.
